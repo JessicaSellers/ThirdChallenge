@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<!-- Makes responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About</title>
+   
+<!-- Imports Bulma components & font awesome library-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+
+  // Check for click events on the navbar 
+  $(".navbar-item").click(function() {
+
+        $(".navbar-item").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+
+</script>
+
+</head>
+
+  <body>
+      <!-- Nav Bar -->
+<nav class="navbar is-fixed-top">
+  <div class="navbar-menu">
+
+  <div class="navbar-start">
+            <a class="navbar-item" href="http://ec2-18-220-193-203.us-east-2.compute.amazonaws.com/">
+  Logo
+</a>
+  </div>
+
+  <div class="navbar-end">
+
+        <a class="navbar-item is-active" href="http://ec2-18-220-193-203.us-east-2.compute.amazonaws.com/">
+  Work
+</a>
+        <a class="navbar-item" href="http://ec2-18-220-193-203.us-east-2.compute.amazonaws.com/about.html">
+  About
+</a>
+        <a class="navbar-item" href="http://ec2-18-220-193-203.us-east-2.compute.amazonaws.com/contact.html">
+  Contact
+</a>
+
+</div>
+</div>
+</nav>
+
+      <br><br><br>
+<div class="columns is-multiline is-mobile">
+<div class="column is-half">
+<img src="JessicaSellers.jpg" alt="Jessica Sellers">
+</div>
+<div class="column is-half">
+<center><h1 class="content is-large">ABOUT</h1></center>
+<br>
+
+    I am a senior at the University of Missouri pursuing degrees in Journalism - Strategic Communication & Information Technology. I have a passion for all things digital. I love having the ability to create something completely new and the design process that goes along with it, whether that be functional or visual design.
+<br> <br>
+        <p>I also love to explore and learn. On a nice day, you can usually find me enjoying the great outdoors, whether that be curled up with a good book in a hammock or hiking with friends. On a dreary, you can find me working on my most recent DIY project or discovering a new interest. My most recent project is to learn to sew. I view myself as a lifelong learner, I love developing new skills and mastering old ones.</p>
+<br>
+<center><h1 class="content is-large">SKILLS</h1></center>
+<div class="content is-small">
+C <progress class="progress is-small" value="85" max="100">85%</progress>
+Swift <progress class="progress is-small" value="75" max="100">75%</progress>
+HTML <progress class="progress is-small" value="90" max="100">90%</progress>
+CSS <progress class="progress is-small" value="92" max="100">92%</progress>
+PHP <progress class="progress is-small" value="60" max="100">60%</progress>
+SQL <progress class="progress is-small" value="70" max="100">70%</progress>
+
+Adobe Creative Suite <progress class="progress is-small" value="85" max="100">85%</progress>
+MS Office <progress class="progress is-small" value="90" max="100">90%</progress>
+WordPress <progress class="progress is-small" value="68" max="100">68%</progress>
+</div>
+</div>
+</div>
+
+      <!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+              <a class="icon" href="https://github.com/JessicaSellers" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+              <a class="icon" href="https://www.linkedin.com/in/jessica-sellers-30b53b124/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="icon" href="mailto:jswx5@mail.missouri.edu">
+          <i class="fas fa-at"></i>
+        </a>
+        <a class="icon" href="Sellers_Jessica.pdf" download>
+          <i class="far fa-file"></i>
+        </a>
+  </div>
+</footer>
+
+  </body>
+</html>
